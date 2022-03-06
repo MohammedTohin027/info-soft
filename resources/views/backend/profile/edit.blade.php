@@ -98,7 +98,7 @@
                                             <input id="image" class="form-control" type="file" name="image">
                                         </div>
                                         <div class="form-group col-md-2">
-                                            <img id="showImage" src="{{ (!empty($editData->image)) ? url('public/upload/profile_images/'.$editData->image) : url('public/upload/avater_1.png') }}" style="width: 150px; height:160px; border:1px solid #666;" alt="">
+                                            <img id="showImage" src="{{ (!empty($editData->image)) ? url('upload/profile_images/'.$editData->image) : url('upload/avater_1.png') }}" style="width: 150px; height:160px; border:1px solid #666;" alt="">
                                         </div>
 
                                         {{-- <div class="form-group col-md-4">

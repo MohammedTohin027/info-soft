@@ -44,13 +44,13 @@
                             <div class="card-body box-profile">
                               <div class="text-center">
                                 <img class="profile-user-img img-fluid img-circle"
-                                     src="{{ (!empty($user->image)) ? url('public/upload/profile_images/'.$user->image) : url('public/upload/avater_1.png') }}"
+                                     src="{{ (!empty($user->image)) ? url('upload/profile_images/'.$user->image) : url('upload/avater_1.png') }}"
                                      alt="User profile picture" style="width: 120px; height: 120px; border-redius: 50%">
                               </div>
 
                               <h3 class="profile-username text-center">{{ $user->name }}</h3>
                               <p class="text-muted text-center">{{ $user->address }}</p>
-                              
+
                               <table width="100%" class="table table-bordered">
                                   <tbody>
                                       <tr>
